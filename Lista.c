@@ -20,15 +20,7 @@ int main()
     return 0;
 }
 
-void LinkedListPrint(ListNode Head)
-{
-    ListNode* Iterator = &Head;
-    while(Iterator)
-    {
-        printf("%d->", Iterator->Value);
-        Iterator = Iterator->Next;
-    }
-}
+
 
 int LinkedListAdd(ListNode* Head, ListNode* New)
 {
